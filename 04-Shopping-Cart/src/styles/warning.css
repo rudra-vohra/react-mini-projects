@@ -1,0 +1,17 @@
+.warning{
+  height: 50px;
+  border-radius: 5px;
+  width: 250px;
+  padding: 5px;
+  background-color: red;
+  color: #fff;
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(50%);
+  transition: all 0.3s ease-in-out;
+}

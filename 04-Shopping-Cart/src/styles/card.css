@@ -1,0 +1,42 @@
+section{
+  margin: auto;
+  width: 80%;
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  grid-gap: 2px;
+}
+
+.cards{
+  width: 250px;
+  padding: 20px;
+}
+.cards:hover{
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.img-box img{
+  height: 200px;
+  width: 150px;
+}
+
+.btn{
+  display: block;
+  background-color: orange;
+  color: black;
+  width: 50%;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn:active{
+  transform: scale(0.98);
+}
+.btn:hover{
+  opacity: 0.9;  
+}
